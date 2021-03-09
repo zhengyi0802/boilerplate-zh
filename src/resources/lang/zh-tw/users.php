@@ -1,0 +1,47 @@
+<?php
+
+return [
+    'title'         => '使用者',
+    'returntolist'  => '使用者列表',
+    'save'          => '儲存',
+    'informations'  => '資訊',
+    'status'        => '狀態',
+    'active'        => '啟用',
+    'inactive'      => '禁用',
+    'lastname'      => '姓氏',
+    'firstname'     => '名字',
+    'email'         => '電子郵件信箱',
+    'roles'         => '權限',
+    'successadd'    => '此使用者已經正確新增資料.',
+    'successmod'    => '此使用者已經正確修改資料.',
+    'newpassword'   => '您的密碼已經被儲存.',
+    'create'        => [
+        'title'     => '新增使用者',
+        'help'      => '此使用者將會收到一封邀請的電子郵件以便登入並允許他設置新的密碼',
+    ],
+    'edit' => [
+        'title'     => '編輯使用者',
+    ],
+    'list' => [
+        'title'         => '使用者列表',
+        'id'            => '編號',
+        'state'         => '狀態',
+        'lastname'      => '姓氏',
+        'firstname'     => '名字',
+        'email'         => '電子郵件信箱',
+        'roles'         => '權限',
+        'creationdate'  => '建立日期',
+        'lastconnect'   => '最後一次登入',
+        'confirmdelete' => '您是否確定要刪除此使用者 ?',
+        'deletesuccess' => '此使用者已完全移除',
+    ],
+    'profile' => [
+        'title'            => '您的個人資料',
+        'subscribedsince'  => '啟用日期 :date ( :since )',
+        'avatar'           => '個人頭像',
+        'delavatar'        => '移除這個頭像',
+        'confirmdelavatar' => '是否要移除這個頭像 ?',
+        'successdelavatar' => '頭像已被移除',
+        'successupdate'    => '個人資料已完成更新',
+    ],
+];

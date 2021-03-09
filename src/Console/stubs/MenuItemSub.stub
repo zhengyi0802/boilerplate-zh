@@ -1,0 +1,30 @@
+<?php
+
+namespace App\Menu;
+
+use Sebastienheyd\Boilerplate\Menu\Builder;
+
+class {{ID}}
+{
+    public function make(Builder $menu)
+    {
+        $item = $menu->add('{{NAME}}', [
+            'permission' => 'backend',
+            'active' => 'boilerplate.dashboard',
+            'icon' => 'square',
+            'order' => {{ORDER}},
+        ]);
+
+        $item->add('Sub item 1', [
+            'permission' => 'backend',
+            'active' => 'boilerplate.dashboard',
+            'route' => 'boilerplate.dashboard',
+        ]);
+
+        $item->add('Sub item 2', [
+            'permission' => 'backend',
+            'active' => 'boilerplate.dashboard',
+            'route' => 'boilerplate.dashboard',
+        ]);
+    }
+}
